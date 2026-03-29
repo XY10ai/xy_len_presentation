@@ -15,6 +15,10 @@ Each level is a 10x improvement in quality and quantity of output.
 
 Growth in AI isn't about past technical skill, it's about autonomy, judgement, and persistence. It will also be people who genuinely love their work, they love to build. High levels of existing technical skill can actually be a detriment to growth through the levels.
 
+## Goal
+
+As business owners, our key job is improving our people. What I hope to give you today is a simple and clear framework for finding the people in your organization who are most likely to create big impact with AI. I want to give you very simple and clear markers to identify these people and see what level they are at.
+
 ## People Profiles
 
 ### Prompter
