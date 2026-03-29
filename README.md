@@ -25,9 +25,8 @@ As business owners, our key job is improving our people. What I hope to give you
 
 - "This helps me do my job faster"
 - Uses ChatGPT to ask questions. Most are here. Most stay here.
-- They use a browser or iPhone based AI.
-- View AI as an assistant.
-- **Tools:** web browser, maybe an app, writes code themselves
+- View AI as an assistant, a better Google
+- **Tools:** web browser, maybe an app
 - **Prompts:** "how do I build this"
 
 ### Builder

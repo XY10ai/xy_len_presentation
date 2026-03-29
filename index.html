@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Len Meeting</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: #1a1a1a;
+      background: #f8f9fa;
+      line-height: 1.6;
+      padding: 2rem;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      border-bottom: 3px solid #1a1a1a;
+      padding-bottom: 0.5rem;
+    }
+    h2 {
+      font-size: 1.6rem;
+      margin: 2rem 0 1rem;
+      color: #333;
+    }
+    p { margin-bottom: 1rem; }
+    ul { margin: 0 0 1rem 1.5rem; }
+    li { margin-bottom: 0.4rem; }
+
+    .levels {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .level-card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1rem;
+      text-align: center;
+    }
+    .level-card strong { display: block; font-size: 1.1rem; margin-bottom: 0.3rem; }
+    .level-card span { font-size: 0.9rem; color: #555; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0 2rem;
+      background: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    th, td {
+      padding: 0.75rem 1rem;
+      text-align: left;
+      border-bottom: 1px solid #eee;
+      vertical-align: top;
+    }
+    th {
+      background: #1a1a1a;
+      color: #fff;
+      font-weight: 600;
+    }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #f5f5f5; }
+
+    .takeaways {
+      background: #fff3cd;
+      border-left: 4px solid #ffc107;
+      padding: 1rem 1.25rem;
+      border-radius: 4px;
+      margin: 1rem 0;
+    }
+
+    .cool-tools {
+      background: #d1ecf1;
+      border-left: 4px solid #17a2b8;
+      padding: 1rem 1.25rem;
+      border-radius: 4px;
+      margin: 1rem 0;
+    }
+    .cool-tools ul { margin-bottom: 0; }
+  </style>
+</head>
+<body>
+
+  <h1>Len Meeting</h1>
+
+  <h2>Levels of AI</h2>
+  <div class="levels">
+    <div class="level-card">
+      <strong>Prompter</strong>
+      <span>Uses ChatGPT to ask questions</span>
+    </div>
+    <div class="level-card">
+      <strong>Builder</strong>
+      <span>Builds simple tools for themselves</span>
+    </div>
+    <div class="level-card">
+      <strong>Tester</strong>
+      <span>Offloads task work to AI with plans, loops, and tests</span>
+    </div>
+    <div class="level-card">
+      <strong>Conductor</strong>
+      <span>Runs multiple agents doing all the above</span>
+    </div>
+  </div>
+
+  <p>AI success in your business will be ground up, not top down. You have to find people who fit these profiles and empower them. If you don't, you'll lose them. If you do, you might lose them. Either way, these are the most valuable people in future organizations.</p>
+  <p>This is what people look like at each level.</p>
+  <p>Each level is a 10x improvement in quality and quantity of output.</p>
+  <p>Growth in AI isn't about past technical skill, it's about autonomy, judgement, and persistence. It will also be people who genuinely love their work, they love to build. High levels of existing technical skill can actually be a detriment to growth through the levels.</p>
+
+  <h2>My Goal</h2>
+  <p>As business owners, our key job is improving our people. What I hope to give you today is a simple and clear framework for finding the people in your organization who are most likely to create big impact with AI. I want to give you very simple and clear markers to identify these people and see what level they are at.</p>
+
+  <h2>People Profiles</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Profile</th>
+        <th>Mindset</th>
+        <th>Description</th>
+        <th>Tools</th>
+        <th>Prompts</th>
+        <th>Examples</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Prompter</strong></td>
+        <td>"This helps me do my job faster"</td>
+        <td>Uses ChatGPT to ask questions. Most are here. Most stay here. View AI as an assistant, a better Google.</td>
+        <td>Web browser, maybe an app</td>
+        <td>"How do I build this"</td>
+        <td>&mdash;</td>
+      </tr>
+      <tr>
+        <td><strong>Builder</strong></td>
+        <td>"Why am I doing this more than once"</td>
+        <td>Creates simple tools for themselves. Want to show you what they built, may have bugs or not be fully thought out for the business implementation. Thinks about how to integrate AI into workflows.</td>
+        <td>VS Code or Cursor, builds from their computer</td>
+        <td>"Build this for me"</td>
+        <td>Label editor in carved shipping</td>
+      </tr>
+      <tr>
+        <td><strong>Tester</strong></td>
+        <td>"How do I offload all task work to the AI"</td>
+        <td>Creates plans before building, then builds tools and loops to test and improve them. Wants to show you their tests and how the agent can run the app and fix bugs itself. Uses a planning process. Shows you a loop they built. Proud of 100% test coverage.</td>
+        <td>CLI agents, builds from the phone</td>
+        <td>"Plan this then build it then test it and fix bugs"</td>
+        <td>Color detection process in carved uploading; Carved uploading e2e test</td>
+      </tr>
+      <tr>
+        <td><strong>Conductor</strong></td>
+        <td>&mdash;</td>
+        <td>Runs multiple agents that are doing all the above. Builds their own tools, works from any device.</td>
+        <td>&mdash;</td>
+        <td>&mdash;</td>
+        <td>LPS order issues; Orbiters; Orbiters scheduling agents to fix bugs</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Key Takeaways</h2>
+  <div class="takeaways">
+    <p>Most people sit at level 1 and think they are level 2.</p>
+    <p>Level 3+ people push your company forward whether you like it or not. They'll either thrive or get frustrated and leave.</p>
+  </div>
+
+  <h2>Cool Tools</h2>
+  <div class="cool-tools">
+    <ul>
+      <li>JAG agent response to forms</li>
+      <li>Xy10 invoicing</li>
+      <li>530 financial management &amp; live P&amp;L</li>
+    </ul>
+  </div>
+
+</body>
+</html>
