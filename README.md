@@ -2,10 +2,10 @@
 
 ## Levels of AI
 
-- **Personal:** uses ChatGPT
-- **Solo Builder:** builds tools for themselves to make work easier
-- **Team Builder:** builds tools for others
-- **Agentic:** how do we offload tasks to AI fully?
+- **Prompter:** uses ChatGPT to ask questions
+- **Builder:** builds simple tools for themselves
+- **Tester:** offloads task work to AI with plans, loops, and tests
+- **Conductor:** runs multiple agents doing all the above
 
 AI success in your business will be ground up, not top down. You have to find people who fit these profiles and empower them. If you don't, you'll lose them. If you do, you might lose them. Either way, these are the most valuable people in future organizations.
 
